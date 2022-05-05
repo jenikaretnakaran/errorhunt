@@ -2,7 +2,7 @@ const express = require('express'); //installed modules
 const path = require ('path'); 
 const cors = require('cors');
 const bodyParser=require('body-parser');//bodyparser
-
+require('dotenv').config()
 const nav= [
     {
         link:"/books",
